@@ -7,7 +7,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./business.component.css']
 })
 export class BusinessComponent implements OnInit {
-
+// Business Componet
   constructor(private appService:AppService) { }
   business:any[]=[]
   ngOnInit(): void {
@@ -18,5 +18,6 @@ export class BusinessComponent implements OnInit {
       }
     )
   }
+
 
 }
