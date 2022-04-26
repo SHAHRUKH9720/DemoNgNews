@@ -7,7 +7,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./business.component.css']
 })
 export class BusinessComponent implements OnInit {
-// Business Componet
+// This is prod Business Component
   constructor(private appService:AppService) { }
   business:any[]=[]
   ngOnInit(): void {
